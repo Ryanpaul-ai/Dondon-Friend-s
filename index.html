@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#101211">
+<title>Dondon&Friend's Shoe Shop | Find Your Next Step</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#top" aria-label="SOLE STYLE home"><span class="brand-mark">D.</span><span>Dondon&Friend's<span class="accent">.</span>Shoe Shop<small>FIND YOUR NEXT STEP</small></span></a>
+  <nav aria-label="Main navigation"><a class="active" href="#top">Home</a><a href="#collection">Shop</a><a href="#about">About</a><a href="#collection">Deals</a></nav>
+  <div class="header-actions"><label class="search-wrap"><span>⌕</span><input id="search" type="search" placeholder="Search shoes..." aria-label="Search shoes"></label><button class="cart-toggle" id="cartToggle" aria-label="Open shopping cart">🛒 <span id="cartCount">0</span></button></div>
+</header>
+<main id="top">
+<section class="hero"><div class="hero-copy"><span class="eyebrow">NEW COLLECTION 2026</span><h1>STEP INTO<br>YOUR <span>STYLE.</span></h1><p>The perfect pair for every journey.</p><button class="primary" id="explore">EXPLORE COLLECTION <span>→</span></button></div><img class="hero-shoe" src="assets/hero-shoe.jpg" alt="Featured black and white sneaker"><div class="hero-perks"><span>◇ Premium Quality</span><span>♧ Fast Shipping</span><span>⬡ Secure Checkout</span></div></section>
+<section class="stats"><div class="stat"><strong>8+</strong><small>Featured styles</small></div><div class="stat"><strong>3</strong><small>Categories</small></div><div class="stat"><strong>100%</strong><small>Your style</small></div></section>
+<section id="collection"><div class="section-head"><div><div class="eyebrow">OUR SELECTION</div><h2>Find Your Perfect Pair</h2></div><span class="muted" id="resultCount">8 products</span></div>
+<div class="toolbar"><div class="filters" id="filters"><button class="chip active" data-category="All">All Shoes</button><button class="chip" data-category="Sneakers">Sneakers</button><button class="chip" data-category="Running">Running</button><button class="chip" data-category="Casual">Casual</button></div><label class="sort-row">Sort by <select id="sort"><option value="featured">Featured</option><option value="low">Price: Low to High</option><option value="high">Price: High to Low</option><option value="name">Name: A to Z</option></select></label></div>
+<div class="products" id="products"></div><div class="no-results" id="noResults">No shoes found. Try another search.</div>
+</section>
+<section class="about" id="about"><h2>Made for every move.</h2><p>From everyday comfort to your next personal best, find a pair that moves with you.</p></section>
+<section class="cart" id="cart"><div class="cart-head"><h2>Your Shopping Cart</h2><button class="chip" id="closeCart">Close ✕</button></div><div id="cartItems"></div><div class="total"><span>Total</span><span id="cartTotal">₱0</span></div><button class="checkout" id="checkout">PLACE ORDER</button><p class="muted" id="message" aria-live="polite"></p></section>
+</main>
+<footer>© 2026 SOLE.STYLE · WALK YOUR OWN WAY.</footer>
+<script src="js/script.js"></script>
+</body></html>
